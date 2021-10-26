@@ -27,5 +27,5 @@ const mixedMessage = (arg1, arg2, arg3) => {
     console.log(`Your Zodiac sign is the ${arg1} and you are likely to be ${arg2}.\nYou were probably born in the month of ${arg3}. `)
 }
 
-
+// Calling the function to generate a random message
 mixedMessage(zodiacSign(), characterTrait(), birthMonth());
